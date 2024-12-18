@@ -42,7 +42,7 @@ const deleteJob = async () => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`/api/jobs/${jobId}`)
+    const response = await axios.get(`https://job-search-site-vfsj.onrender.com/jobs/${jobId}`)
     job.value = response.data
   } catch (error) {
     console.error('Error fetching job', error)

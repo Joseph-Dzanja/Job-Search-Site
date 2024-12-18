@@ -69,7 +69,7 @@ const handleSubmit = async () => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get(`/api/jobs/${jobId}`)
+    const response = await axios.get(`https://job-search-site-vfsj.onrender.com/jobs/${jobId}`)
     state.job = response.data
     //populate inputs
     form.type = state.job.type
