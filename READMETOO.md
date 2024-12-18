@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -37,3 +38,7 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# Job-Search-Site
+A simple web app that allows users to browse available jobs as well as create jobs.
+>>>>>>> origin/main
