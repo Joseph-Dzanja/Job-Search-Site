@@ -32,7 +32,7 @@ const jobs = ref<
 
 onMounted(async () => {
   try {
-    const response = await axios.get('/api/jobs')
+    const response = await axios.get('https://job-search-site-vfsj.onrender.com/jobs')
     jobs.value = response.data
   } catch (error) {
     console.error('Error fetching jobs', error)
